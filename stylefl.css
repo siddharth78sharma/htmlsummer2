@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+}
+.color{
+    width: fit-content;
+}
+.first{
+    /* float: left; */
+    width: 200%;
+    height: 80px;
+    background-color: red;
+}
+.second{
+    /* float: right; */
+    width:200%;
+    height: 80px;
+    background-color: blue;
+}
+.third{
+    /* float: left; */
+    width:200%;
+    height: 80px;
+    background-color: yellow;
+}
+.forth{
+    /* float: right; */
+    width: 200%;
+    height: 80px;
+    background-color: green;
+}
+.www{
+    float: right;
+    
+}
+/* .pos{
+    position: absolute;
+    top: 225px;
+    left: 200px;
+    border: 5px;
+    border-radius: 200px;
+    background-color: white;
+} */
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    background-color: white;
+    justify-content: center;
+    justify-content: space-around;
+    /* align-self: flex-end; */
+}
+div{
+    /* align-self: flex-end; */
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+}
+.one{
+     align-self: flex-start;
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+}
+.two{
+    align-self: center;
+    background-color: darkmagenta;
+    width: 100px;
+    height: 100px;
+}
+.three{
+    align-self: flex-end;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+/* .four{
+    background-color: fuchsia;
+    width: 400px;
+    height: 200px;
+}
+.five{
+    background-color: rgb(185, 236, 55);
+    width: 500px;
+    height: 200px;
+} */

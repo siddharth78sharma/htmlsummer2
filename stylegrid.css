@@ -1,0 +1,42 @@
+.main{
+    display: grid;
+    height: 400px;
+    background-color: white;
+   grid-template-columns: auto auto;
+   grid-template-rows: 70px 70px;
+   row-gap: 40px;
+   column-gap: 5px;
+}
+div{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+}
+.one{
+    grid-column: 1/span2;
+    background-color: brown;
+    width: 100%;
+    height: 100px;
+}
+.two{
+    /* grid-row: span2; */
+    background-color: darkmagenta;
+    width: 100%;
+    height: 100px;
+}
+.three{
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+}
+.four{
+    background-color: fuchsia;
+    width: 100%;
+    height: 100px;
+}
+.five{
+    background-color: rgb(185, 236, 55);
+    width: 100%;
+    height: 100px;
+}
