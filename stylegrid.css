@@ -2,9 +2,12 @@
     display: grid;
     height: 400px;
     background-color: white;
-   grid-template-columns: auto auto;
-   grid-template-rows: 70px 70px;
-   row-gap: 40px;
+    grid-template-areas: "head head head head"
+    "text text text side" "footer footer footer footer"
+     "footer1 footer1 footer2 footer2";
+   /* grid-template-columns: auto auto; */
+   grid-template-rows: 100px 300px 100px 100px;
+   row-gap: 10px;
    column-gap: 5px;
 }
 div{
@@ -14,29 +17,38 @@ div{
     border-radius: 10px;
 }
 .one{
-    grid-column: 1/span2;
+    grid-area: head;
     background-color: brown;
-    width: 100%;
-    height: 100px;
+    /* width: 100%; */
+    /* height: 100px; */
 }
 .two{
-    /* grid-row: span2; */
+    grid-area: text;
     background-color: darkmagenta;
-    width: 100%;
-    height: 100px;
+    /* width: 100%; */
+    /* height: 100px; */
 }
 .three{
+    grid-area: side;
     background-color: blue;
-    width: 100%;
-    height: 100px;
+    /* width: 100%; */
+    /* height: 100px; */
 }
 .four{
+    grid-area: footer;
     background-color: fuchsia;
-    width: 100%;
-    height: 100px;
+    /* width: 100%; */
+    /* height: 100px; */
 }
 .five{
+    grid-area: footer1;
     background-color: rgb(185, 236, 55);
-    width: 100%;
-    height: 100px;
+    /* width: 100%; */
+    /* height: 100px; */
+}
+.six{
+    grid-area: footer2;
+    background-color: rgb(100, 182, 236);
+    /* width: 100%; */
+    /* height: 100px; */
 }

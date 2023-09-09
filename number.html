@@ -1,0 +1,86 @@
+<html>
+    <head></head>
+    <body>
+
+        <label> Firstname :</label>    &nbsp; &nbsp;  &nbsp;
+        <input type="text" name="firstname" id="name1" placeholder= "Firstname" size="15" required /> &nbsp; &nbsp; &nbsp;&nbsp;oninput:<span id="result1"></span> <br> <br>
+        <label> Middlename: </label>   &nbsp; &nbsp;  &nbsp;
+        <input type="text" name="middlename" id="name2" placeholder="Middlename" size="15"  /> &nbsp; &nbsp; &nbsp;  oninput:<span id="result2"></span>    <br><br>
+        <label> Lastname: </label>     &nbsp; &nbsp;  &nbsp;
+        <input type="text" name="lastname" id="name3" placeholder="Lastname" size="15"required /> &nbsp; &nbsp; &nbsp;&nbsp; oninput:<span id="result3"></span>  <br><br>
+
+        <label>   
+            Course :   &nbsp; &nbsp; &nbsp;
+            </label>
+        <select onchange="alert(this.value)">  
+            <option value="Course">Course</option>  
+            <option value="BCA">BCA</option>  
+            <option value="BBA">BBA</option>  
+            <option value="B.Tech">B.Tech</option>  
+            <option value="MBA">MBA</option>  
+            <option value="MCA">MCA</option>  
+            <option value="M.Tech">M.Tech</option>  
+            </select> 
+<br><br>
+            <label for="email"><b>Email</b></label>  &nbsp; &nbsp;  &nbsp; 
+ <input type="text" placeholder="Enter Email" name="email" required>  <br><br>
+  
+    <label for="psw"><b>Password</b></label>  
+    <input type="password" placeholder="Enter Password" name="psw" required>  <br><br>
+  
+    <label for="psw-repeat"><b>Re-type Password</b></label>  
+    <input type="password" placeholder="Retype Password" name="psw-repeat" required>  <br><br>
+    <!-- <input type="image" src="imgabout.png" width="50%" hight="10px" margin-bottom="100px"> -->
+    <button type="submit" class="registerbtn">Register</button> 
+    <input type="text" onchange="alert(this.value)">
+     <input type="button" value="Button">
+
+
+
+        <!-- <input type="text" onchange="alert(this.value)">
+     <input type="button" value="Button">
+<br>
+     <select onchange="alert(this.value)">
+        <option value="">other</option>
+        <option value="1">option 1</option>
+        <option value="2">option 2</option>
+        <option value="3">option 3</option>
+     </select>
+   
+     <input type="text" id="input"> oninput:<span id="result"></span> -->
+
+        <script>
+            name1.oninput = function(){
+                result1.innerHTML = name1.value;
+            };
+            name2.oninput = function(){
+                result2.innerHTML = name2.value;
+            };
+            name3.oninput = function(){
+                result3.innerHTML = name3.value;
+            };
+
+    //  function number(){
+
+    //     if(num%2==0){
+    //         alert(`${num} is even`);
+    //     }
+    //     else{
+    //         alert(`${num} is odd`);
+    //     }
+    //  }
+    //  let num=prompt("enter the number");
+    //  number();
+ 
+    //  function number2(degree){
+    //    return ((degree*9/5)+32);
+    //  }
+    //  let degree=prompt("enter tempreture in degree");
+    //  alert(number2(degree));
+
+
+    
+        </script>
+    </body>
+
+</html>

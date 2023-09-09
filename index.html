@@ -1,53 +1,74 @@
-<!DOCTYPE html>
-<html>
-    <head>
-       
-        <title>my page</title>
-        <link rel="stylesheet" href="style.css">
-    
-    </head>
-    <body>
-       
-        <h1>hello</h1>
-        <br> <br>
-        <h2>header</h2>
-        <br><br>
-        <table >
-        <tr><td>1</td>
-        <td>2</td>
-        <td>3</td></tr>
-        <tr><td>1</td>
-        <td>2</td>
-        <td>3</td></tr>
-        <tr><td>1</td>
-        <td>2</td>
-        <td>3</td></tr>
-        <tr><td>1</td>
-        <td>2</td>
-        <td>3</td></tr>
-        </table>
-        <div class="box">
-        
-        </div>
-        <button>Google</button>
-        <br><br>
-        <!-- <img src="imgabout.png"><br> -->
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<link rel="stylesheet" href="formstyle.css">
+</head>  
+<body>  
+<form>  
+  <div class="container">  
+  <center>  <h1> Student Registeration Form</h1> </center>  
+  <hr>  
+  <label> Firstname </label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+<label> Middlename: </label>   
+<input type="text" name="middlename" placeholder="Middlename" size="15"  />   
+<label> Lastname: </label>    
+<input type="text" name="lastname" placeholder="Lastname" size="15"required />   
+<div>  
+<label>   
+Course :   &nbsp; &nbsp; &nbsp;
+</label>   
+  
+<select>  
+<option value="Course">Course</option>  
+<option value="BCA">BCA</option>  
+<option value="BBA">BBA</option>  
+<option value="B.Tech">B.Tech</option>  
+<option value="MBA">MBA</option>  
+<option value="MCA">MCA</option>  
+<option value="M.Tech">M.Tech</option>  
+</select>  
+</div> 
 
-        <div class="color">
-        <div class="first">
-            <h1>Red car</h1>
-        </div>
-        <div class="second">
-           <h2>blue car</h2>
-        </div>
-        <div class="third">
-            <h3>yellow car</h3>
-        </div>
-        <div class="forth">
-            <h4>green car</h4>
-        </div>
-       </div>
-       
-       
-    </body>
-</html>
+<label>
+  &nbsp; &nbsp;  &nbsp;
+Birth date :
+</label>
+<input type="date">
+ <label>
+   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+   Colour :
+</label>
+<input type="color">
+
+<div>  
+<label>  
+Gender :   &nbsp;
+</label>
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+  
+</div>  
+<label>   
+Phone :  
+</label>  
+<input type="text" name="country code" placeholder="Country Code" size="2"/>   
+<input type="text" name="phone" placeholder="phone no." maxlength="15"  value="+91" size="10"/ required>   
+Current Address :  
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+</textarea>  
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required>  
+  
+    <label for="psw"><b>Password</b></label>  
+    <input type="password" placeholder="Enter Password" name="psw" required>  
+  
+    <label for="psw-repeat"><b>Re-type Password</b></label>  
+    <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
+    <!-- <input type="image" src="imgabout.png" width="50%" hight="10px" margin-bottom="100px"> -->
+    <button type="submit" class="registerbtn">Register</button>    
+</form>  
+</body>  
+</html>  

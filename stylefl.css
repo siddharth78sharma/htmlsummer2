@@ -4,30 +4,30 @@ body{
 .color{
     width: fit-content;
 }
-.first{
-    /* float: left; */
+/* .first{
+    float: left;
     width: 200%;
     height: 80px;
     background-color: red;
 }
 .second{
-    /* float: right; */
+    float: right;
     width:200%;
     height: 80px;
     background-color: blue;
 }
 .third{
-    /* float: left; */
+    float: left;
     width:200%;
     height: 80px;
     background-color: yellow;
 }
 .forth{
-    /* float: right; */
+    float: right;
     width: 200%;
     height: 80px;
     background-color: green;
-}
+} */
 .www{
     float: right;
     

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <title>my page</title>
+        <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+        }
+    </style>
+    </head>
+    <body>
+       
+     <div id="myid" onclick="clickFn()">hello world</div>
+       <div class="hello">class1 </div>
+       <h1 class="hello">class2</h1>
+       <p class="hello">class3</p>  
+  
+        <img src="imgabout.png" width=200px>
+        <img src="imgabout.png" width=200px>
+       <script>
+        document.getElementsByClassName('hello').style.backgroundcolor="red";  
+        document.getElementsByTagName('img')[0].innerHTML="change h2 tag"; 
+    //   function checkAge(age){
+    //     if(age=>18){
+    //         return true;
+    //     } else{
+    //         return confirm("do you have permission from your parrents");
+    //     }
+    //   }
+
+    //   let age = prompt('how old are you',18);
+    //   if(checkAge(age)){
+    //     alert('permission granted');
+    //   }
+    //   else{
+    //     alert("permission denied");
+    //   }
+
+    function clickFn(){
+        alert("hello");
+    }
+     function clickDb(){
+        alert("db hallo");
+     }
+     function clickmenu(){
+        alert("hello menu");
+     }
+
+       </script>
+       
+    </body>
+</html>
